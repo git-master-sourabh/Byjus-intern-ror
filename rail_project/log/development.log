@@ -5665,3 +5665,765 @@ Processing by Devise::SessionsController#new as HTML
 Completed 200 OK in 99ms (Views: 98.4ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 172.20.0.1 at 2023-02-06 03:13:14 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (2.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.8.1/lib/active_record/log_subscriber.rb:98
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 11ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 172.20.0.1 at 2023-02-06 03:13:15 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering /usr/local/bundle/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /usr/local/bundle/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (0.6ms)
+  Rendered /usr/local/bundle/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 436ms (Views: 424.6ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/" for 172.20.0.1 at 2023-02-06 03:13:32 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 172.20.0.1 at 2023-02-06 03:13:32 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering /usr/local/bundle/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /usr/local/bundle/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (0.5ms)
+  Rendered /usr/local/bundle/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 119ms (Views: 117.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.20.0.1 at 2023-02-06 03:20:24 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 7ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 172.20.0.1 at 2023-02-06 03:20:25 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering /usr/local/bundle/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /usr/local/bundle/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (0.5ms)
+  Rendered /usr/local/bundle/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 105ms (Views: 84.3ms | ActiveRecord: 11.5ms)
+
+
+Started GET "/go" for 172.20.0.1 at 2023-02-06 03:20:26 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#index as HTML
+  Rendering travels/index.html.erb within layouts/application
+  Rendered travels/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 97ms (Views: 71.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&country=Germany&button=" for 172.20.0.1 at 2023-02-06 03:27:11 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+AbstractController::ActionNotFound (The action 'search' could not be found for TravelsController):
+  
+actionpack (5.2.8.1) lib/abstract_controller/base.rb:129:in `process'
+actionview (5.2.8.1) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.8.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.8.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.8.1) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.8.1) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.8.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.8.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.8.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.8.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+warden (1.2.9) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.9) lib/warden/manager.rb:34:in `catch'
+warden (1.2.9) lib/warden/manager.rb:34:in `call'
+rack (2.2.6.2) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.6.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.6.2) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.6.2) lib/rack/head.rb:12:in `call'
+actionpack (5.2.8.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.6.2) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.6.2) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (5.2.8.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.8.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.8.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.8.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.8.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.8.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.8.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.8.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.8.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.8.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.8.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.8.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.8.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.8.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.8.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.8.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.8.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.8.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.8.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.6.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.8.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/search?utf8=%E2%9C%93&country=Germany&button=" for 172.20.0.1 at 2023-02-06 03:34:38 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/search"):
+  
+actionpack (5.2.8.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.8.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.8.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.8.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.8.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.8.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.8.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.8.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.8.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.8.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.8.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.8.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.8.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.6.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.8.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/search?utf8=%E2%9C%93&country=Germany&button=" for 172.20.0.1 at 2023-02-06 03:34:52 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/search"):
+  
+actionpack (5.2.8.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.8.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.8.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.8.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.8.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.8.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.8.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.8.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.8.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.8.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.8.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.8.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.8.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.6.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.8.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/search?utf8=%E2%9C%93&country=Germany&button=" for 172.20.0.1 at 2023-02-06 03:36:58 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/search"):
+  
+actionpack (5.2.8.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.8.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.8.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.8.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.8.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.8.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.8.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.8.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.8.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.8.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.8.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.8.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.8.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.6.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.8.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/search?utf8=%E2%9C%93&country=Germany&button=" for 172.20.0.1 at 2023-02-06 03:39:21 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "country"=>"Germany", "button"=>""}
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant TravelsController::Excon):
+  
+app/controllers/travels_controller.rb:46:in `request_api'
+app/controllers/travels_controller.rb:61:in `find_country'
+app/controllers/travels_controller.rb:24:in `search'
+Started GET "/search?utf8=%E2%9C%93&country=Germany&button=" for 172.20.0.1 at 2023-02-06 04:39:18 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.8.1/lib/active_record/log_subscriber.rb:98
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "country"=>"Germany", "button"=>""}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+KeyError (key not found: "your_api_key_here"):
+  
+app/controllers/travels_controller.rb:51:in `fetch'
+app/controllers/travels_controller.rb:51:in `request_api'
+app/controllers/travels_controller.rb:61:in `find_country'
+app/controllers/travels_controller.rb:24:in `search'
+Started GET "/" for 172.20.0.1 at 2023-02-06 04:39:39 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 17ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 172.20.0.1 at 2023-02-06 04:39:39 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering /usr/local/bundle/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /usr/local/bundle/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (0.6ms)
+  Rendered /usr/local/bundle/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 3556ms (Views: 3547.2ms | ActiveRecord: 5.4ms)
+
+
+Started GET "/" for 172.20.0.1 at 2023-02-06 04:39:48 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 172.20.0.1 at 2023-02-06 04:39:48 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering /usr/local/bundle/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /usr/local/bundle/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (0.5ms)
+  Rendered /usr/local/bundle/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 106ms (Views: 105.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/go" for 172.20.0.1 at 2023-02-06 04:39:49 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#index as HTML
+  Rendering travels/index.html.erb within layouts/application
+  Rendered travels/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 106ms (Views: 75.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&country=Germany&button=" for 172.20.0.1 at 2023-02-06 04:39:54 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "country"=>"Germany", "button"=>""}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+KeyError (key not found: "your_api_key_here"):
+  
+app/controllers/travels_controller.rb:51:in `fetch'
+app/controllers/travels_controller.rb:51:in `request_api'
+app/controllers/travels_controller.rb:61:in `find_country'
+app/controllers/travels_controller.rb:24:in `search'
+Started GET "/search?utf8=%E2%9C%93&country=Germany&button=" for 172.20.0.1 at 2023-02-06 04:42:10 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "country"=>"Germany", "button"=>""}
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+KeyError (key not found: "33e527860cmsh2efe253a0e23489p11d77bjsne217ec99d306"):
+  
+app/controllers/travels_controller.rb:51:in `fetch'
+app/controllers/travels_controller.rb:51:in `request_api'
+app/controllers/travels_controller.rb:61:in `find_country'
+app/controllers/travels_controller.rb:24:in `search'
+Started GET "/search?utf8=%E2%9C%93&country=Germany&button=" for 172.20.0.1 at 2023-02-06 04:43:27 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "country"=>"Germany", "button"=>""}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+KeyError (key not found: "33e527860cmsh2efe253a0e23489p11d77bjsne217ec99d306"):
+  
+app/controllers/travels_controller.rb:51:in `fetch'
+app/controllers/travels_controller.rb:51:in `request_api'
+app/controllers/travels_controller.rb:61:in `find_country'
+app/controllers/travels_controller.rb:24:in `search'
+Started GET "/search?utf8=%E2%9C%93&country=Germany&button=" for 172.20.0.1 at 2023-02-06 04:43:28 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "country"=>"Germany", "button"=>""}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+KeyError (key not found: "33e527860cmsh2efe253a0e23489p11d77bjsne217ec99d306"):
+  
+app/controllers/travels_controller.rb:51:in `fetch'
+app/controllers/travels_controller.rb:51:in `request_api'
+app/controllers/travels_controller.rb:61:in `find_country'
+app/controllers/travels_controller.rb:24:in `search'
+Started GET "/search?utf8=%E2%9C%93&country=Germany&button=" for 172.20.0.1 at 2023-02-06 04:50:08 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/search"):
+  
+actionpack (5.2.8.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.8.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.8.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.8.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.8.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.8.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.8.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.8.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.8.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.8.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.6.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.8.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.8.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.8.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.6.2) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.8.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/search?utf8=%E2%9C%93&country=Germany&button=" for 172.20.0.1 at 2023-02-06 04:53:52 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "country"=>"Germany", "button"=>""}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+KeyError (key not found: "33e527860cmsh2efe253a0e23489p11d77bjsne217ec99d306"):
+  
+app/controllers/travels_controller.rb:35:in `fetch'
+app/controllers/travels_controller.rb:35:in `request_api'
+app/controllers/travels_controller.rb:45:in `find_country'
+app/controllers/travels_controller.rb:6:in `search'
+Started GET "/search?utf8=%E2%9C%93&country=Germany&button=" for 172.20.0.1 at 2023-02-06 04:53:56 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "country"=>"Germany", "button"=>""}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+KeyError (key not found: "33e527860cmsh2efe253a0e23489p11d77bjsne217ec99d306"):
+  
+app/controllers/travels_controller.rb:35:in `fetch'
+app/controllers/travels_controller.rb:35:in `request_api'
+app/controllers/travels_controller.rb:45:in `find_country'
+app/controllers/travels_controller.rb:6:in `search'
+Started GET "/search?utf8=%E2%9C%93&country=Germany&button=" for 172.20.0.1 at 2023-02-06 04:58:52 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "country"=>"Germany", "button"=>""}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+KeyError (key not found: "33e527860cmsh2efe253a0e23489p11d77bjsne217ec99d306"):
+  
+app/controllers/travels_controller.rb:35:in `fetch'
+app/controllers/travels_controller.rb:35:in `request_api'
+app/controllers/travels_controller.rb:45:in `find_country'
+app/controllers/travels_controller.rb:6:in `search'
+Started GET "/go" for 172.20.0.1 at 2023-02-06 04:58:57 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#index as HTML
+  Rendering travels/index.html.erb within layouts/application
+  Rendered travels/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 89ms (Views: 76.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&country=Germany&button=" for 172.20.0.1 at 2023-02-06 04:59:02 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "country"=>"Germany", "button"=>""}
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+KeyError (key not found: "33e527860cmsh2efe253a0e23489p11d77bjsne217ec99d306"):
+  
+app/controllers/travels_controller.rb:35:in `fetch'
+app/controllers/travels_controller.rb:35:in `request_api'
+app/controllers/travels_controller.rb:45:in `find_country'
+app/controllers/travels_controller.rb:6:in `search'
+Started GET "/search?utf8=%E2%9C%93&country=Germany&button=" for 172.20.0.1 at 2023-02-06 05:00:25 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "country"=>"Germany", "button"=>""}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+KeyError (key not found: "33e527860cmsh2efe253a0e23489p11d77bjsne217ec99d306"):
+  
+app/controllers/travels_controller.rb:35:in `fetch'
+app/controllers/travels_controller.rb:35:in `request_api'
+app/controllers/travels_controller.rb:45:in `find_country'
+app/controllers/travels_controller.rb:6:in `search'
+Started GET "/" for 172.20.0.1 at 2023-02-06 05:00:32 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 13ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 172.20.0.1 at 2023-02-06 05:00:32 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering /usr/local/bundle/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /usr/local/bundle/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (0.5ms)
+  Rendered /usr/local/bundle/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 105ms (Views: 87.1ms | ActiveRecord: 13.8ms)
+
+
+Started GET "/" for 172.20.0.1 at 2023-02-06 05:02:38 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 172.20.0.1 at 2023-02-06 05:02:38 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering /usr/local/bundle/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /usr/local/bundle/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (0.4ms)
+  Rendered /usr/local/bundle/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 110ms (Views: 109.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/go" for 172.20.0.1 at 2023-02-06 05:02:38 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#index as HTML
+  Rendering travels/index.html.erb within layouts/application
+  Rendered travels/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 79ms (Views: 68.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&country=Germany&button=" for 172.20.0.1 at 2023-02-06 05:02:50 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "country"=>"Germany", "button"=>""}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+KeyError (key not found: "33e527860cmsh2efe253a0e23489p11d77bjsne217ec99d306"):
+  
+app/controllers/travels_controller.rb:35:in `fetch'
+app/controllers/travels_controller.rb:35:in `request_api'
+app/controllers/travels_controller.rb:45:in `find_country'
+app/controllers/travels_controller.rb:6:in `search'
+Started GET "/search?utf8=%E2%9C%93&country=Germany&button=" for 172.20.0.1 at 2023-02-06 05:03:41 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.8.1/lib/active_record/log_subscriber.rb:98
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "country"=>"Germany", "button"=>""}
+  Rendering travels/index.html.erb within layouts/application
+  Rendered travels/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 858ms (Views: 277.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&country=Germany&button=" for 172.20.0.1 at 2023-02-06 05:03:49 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "country"=>"Germany", "button"=>""}
+  Rendering travels/index.html.erb within layouts/application
+  Rendered travels/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 2655ms (Views: 108.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&country=India&button=" for 172.20.0.1 at 2023-02-06 05:03:58 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "country"=>"India", "button"=>""}
+  Rendering travels/index.html.erb within layouts/application
+  Rendered travels/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 779ms (Views: 110.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&country=USA&button=" for 172.20.0.1 at 2023-02-06 05:04:03 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "country"=>"USA", "button"=>""}
+  Rendering travels/index.html.erb within layouts/application
+  Rendered travels/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 740ms (Views: 119.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&country=Germany&button=" for 172.20.0.1 at 2023-02-06 05:18:02 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "country"=>"Germany", "button"=>""}
+Completed 500 Internal Server Error in 6039ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of String into Integer):
+  
+app/controllers/travels_controller.rb:12:in `[]'
+app/controllers/travels_controller.rb:12:in `search'
+Started GET "/search?utf8=%E2%9C%93&country=Germany&button=" for 172.20.0.1 at 2023-02-06 05:19:29 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "country"=>"Germany", "button"=>""}
+Completed 500 Internal Server Error in 77ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `find_city' for #<TravelsController:0x0000ffff8db6a390>
+Did you mean?  find_country):
+  
+app/controllers/travels_controller.rb:24:in `search'
+Started GET "/search?utf8=%E2%9C%93&country=Germany&button=" for 172.20.0.1 at 2023-02-06 05:20:35 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "country"=>"Germany", "button"=>""}
+Completed 500 Internal Server Error in 107ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `find_city' for #<TravelsController:0x0000ffff8dac2780>
+Did you mean?  find_country):
+  
+app/controllers/travels_controller.rb:24:in `search'
+Started GET "/search?utf8=%E2%9C%93&country=Germany&button=" for 172.20.0.1 at 2023-02-06 05:21:03 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "country"=>"Germany", "button"=>""}
+Completed 500 Internal Server Error in 109ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `find_city' for #<TravelsController:0x0000ffff8d8bd110>
+Did you mean?  find_country):
+  
+app/controllers/travels_controller.rb:24:in `search'
+Started GET "/search?utf8=%E2%9C%93&country=USA&button=" for 172.20.0.1 at 2023-02-06 05:21:06 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "country"=>"USA", "button"=>""}
+Completed 500 Internal Server Error in 58ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `find_city' for #<TravelsController:0x0000ffff84262990>
+Did you mean?  find_country):
+  
+app/controllers/travels_controller.rb:24:in `search'
+Started GET "/search?utf8=%E2%9C%93&country=India&button=" for 172.20.0.1 at 2023-02-06 05:21:12 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "country"=>"India", "button"=>""}
+Completed 500 Internal Server Error in 94ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `find_city' for #<TravelsController:0x0000ffff7c0d11b0>
+Did you mean?  find_country):
+  
+app/controllers/travels_controller.rb:24:in `search'
+Started GET "/search?utf8=%E2%9C%93&country=Germany&button=" for 172.20.0.1 at 2023-02-06 05:29:52 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "country"=>"Germany", "button"=>""}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+KeyError (key not found: "33e527860cmsh2efe253a0e23489p11d77bjsne217ec99d306"):
+  
+app/controllers/travels_controller.rb:35:in `fetch'
+app/controllers/travels_controller.rb:35:in `request_api'
+app/controllers/travels_controller.rb:45:in `find_country'
+app/controllers/travels_controller.rb:6:in `search'
+Started GET "/search?utf8=%E2%9C%93&country=Germany&button=" for 172.20.0.1 at 2023-02-06 05:30:02 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "country"=>"Germany", "button"=>""}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+KeyError (key not found: "33e527860cmsh2efe253a0e23489p11d77bjsne217ec99d306"):
+  
+app/controllers/travels_controller.rb:35:in `fetch'
+app/controllers/travels_controller.rb:35:in `request_api'
+app/controllers/travels_controller.rb:45:in `find_country'
+app/controllers/travels_controller.rb:6:in `search'
+Started GET "/search?utf8=%E2%9C%93&country=Germany&button=" for 172.20.0.1 at 2023-02-06 05:31:13 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "country"=>"Germany", "button"=>""}
+  Rendering travels/index.html.erb within layouts/application
+  Rendered travels/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 870ms (Views: 109.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&country=Germany&button=" for 172.20.0.1 at 2023-02-06 05:31:21 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "country"=>"Germany", "button"=>""}
+  Rendering travels/index.html.erb within layouts/application
+  Rendered travels/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 765ms (Views: 109.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&country=&button=" for 172.20.0.1 at 2023-02-06 05:31:29 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "country"=>"", "button"=>""}
+  Rendering travels/index.html.erb within layouts/application
+  Rendered travels/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 390ms (Views: 103.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&country=&button=" for 172.20.0.1 at 2023-02-06 05:52:06 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "country"=>"", "button"=>""}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `gsub' for nil:NilClass):
+  
+app/controllers/travels_controller.rb:38:in `find_country'
+app/controllers/travels_controller.rb:6:in `search'
+Started GET "/search?utf8=%E2%9C%93&country=Germany&button=" for 172.20.0.1 at 2023-02-06 05:53:35 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "country"=>"Germany", "button"=>""}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `gsub' for nil:NilClass):
+  
+app/controllers/travels_controller.rb:38:in `find_city'
+app/controllers/travels_controller.rb:6:in `search'
+Started GET "/go" for 172.20.0.1 at 2023-02-06 05:54:34 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#index as HTML
+  Rendering travels/index.html.erb within layouts/application
+  Rendered travels/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 115ms (Views: 89.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/go" for 172.20.0.1 at 2023-02-06 05:54:47 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#index as HTML
+  Rendering travels/index.html.erb within layouts/application
+  Rendered travels/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 106ms (Views: 77.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&city=new+york&button=" for 172.20.0.1 at 2023-02-06 05:54:52 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "city"=>"new york", "button"=>""}
+Completed 500 Internal Server Error in 3313ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `city' for #<TravelsController:0x0000ffff8d946bb8>):
+  
+app/controllers/travels_controller.rb:7:in `search'
+Started GET "/search?utf8=%E2%9C%93&city=new+york&button=" for 172.20.0.1 at 2023-02-06 05:55:41 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "city"=>"new york", "button"=>""}
+  Rendering travels/search.html.erb within layouts/application
+  Rendered travels/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3771ms (Views: 81.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&city=new+york&button=" for 172.20.0.1 at 2023-02-06 05:56:26 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "city"=>"new york", "button"=>""}
+  Rendering travels/search.html.erb within layouts/application
+  Rendered travels/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 6699ms (Views: 76.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&city=new+york&button=" for 172.20.0.1 at 2023-02-06 05:56:43 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "city"=>"new york", "button"=>""}
+  Rendering travels/search.html.erb within layouts/application
+  Rendered travels/search.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 3984ms (Views: 74.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/go" for 172.20.0.1 at 2023-02-06 05:58:50 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#index as HTML
+  Rendering travels/index.html.erb within layouts/application
+  Rendered travels/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 72ms (Views: 61.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&city=new+york&button=" for 172.20.0.1 at 2023-02-06 05:58:53 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "city"=>"new york", "button"=>""}
+  Rendering travels/search.html.erb within layouts/application
+  Rendered travels/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 4848ms (Views: 80.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/go" for 172.20.0.1 at 2023-02-06 06:19:44 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#index as HTML
+  Rendering travels/index.html.erb within layouts/application
+  Rendered travels/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 106ms (Views: 94.5ms | ActiveRecord: 0.0ms)
+
+
