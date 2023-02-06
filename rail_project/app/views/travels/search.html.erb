@@ -3,7 +3,34 @@
   <div class="row mt-5">
     <div class="col-lg-6">
       <h4>City info</h4>
+      <dl>
+      <dt>City Name</dt>
+      <dd><%= @city['term']%></dd>
+      <dt>City Name</dt>
+     
+
+     
+      <% @city['suggestions'].each do |suggestion| %>
+        <h3><%= suggestion['group'] %></h3>
+       <table border=2>
+       <% suggestion['entities'].each_with_index do |entity,index| %>
+          <% if index==0 %>
+            <tr>
+              <% entity.keys do |k|%>
+              <th><%=k%></th>
+              <%end%>
+            </tr>
+          <%end%>
+       <%end%>
+       
+       </table>
       
+       
+      <% end %>
+    
+
+
+    </dl>
   
   </div>
 </div>

@@ -6427,3 +6427,646 @@ Processing by TravelsController#index as HTML
 Completed 200 OK in 106ms (Views: 94.5ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/search?utf8=%E2%9C%93&city=New+York&button=" for 172.20.0.1 at 2023-02-06 06:32:32 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "city"=>"New York", "button"=>""}
+  Rendering travels/search.html.erb within layouts/application
+  Rendered travels/search.html.erb within layouts/application (15.7ms)
+Completed 500 Internal Server Error in 3121ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (no implicit conversion of String into Integer):
+     5:       <h4>City info</h4>
+     6:       <dl>
+     7:       <dt>City Name</dt>
+     8:       <dd><%= @city['term'] %></dd>
+     9:       # <dt>Capital</dt>
+    10:       # <dd><%= @country['capital'] %></dd>
+    11:       # <dt>Currency</dt>
+  
+app/views/travels/search.html.erb:8:in `[]'
+app/views/travels/search.html.erb:8:in `_app_views_travels_search_html_erb__3698185548770572125_140736529619940'
+Started GET "/search?utf8=%E2%9C%93&city=New+York&button=" for 172.20.0.1 at 2023-02-06 06:34:49 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "city"=>"New York", "button"=>""}
+  Rendering travels/search.html.erb within layouts/application
+  Rendered travels/search.html.erb within layouts/application (13.0ms)
+Completed 500 Internal Server Error in 3497ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `-' for "term":String
+Did you mean?  -@):
+     5:       <h4>City info</h4>
+     6:       <dl>
+     7:       <dt>City Name</dt>
+     8:       <dd><%= @city['term'-'a'] %></dd>
+     9:       # <dt>Capital</dt>
+    10:       # <dd><%= @country['capital'] %></dd>
+    11:       # <dt>Currency</dt>
+  
+app/views/travels/search.html.erb:8:in `_app_views_travels_search_html_erb__3698185548770572125_140736417469300'
+Started GET "/search?utf8=%E2%9C%93&city=New+York&button=" for 172.20.0.1 at 2023-02-06 06:35:08 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "city"=>"New York", "button"=>""}
+  Rendering travels/search.html.erb within layouts/application
+  Rendered travels/search.html.erb within layouts/application (165.9ms)
+Completed 500 Internal Server Error in 4205ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `term' for #<#<Class:0x0000ffff845bc140>:0x0000ffff85841f18>):
+     5:       <h4>City info</h4>
+     6:       <dl>
+     7:       <dt>City Name</dt>
+     8:       <dd><%= @city[term] %></dd>
+     9:       # <dt>Capital</dt>
+    10:       # <dd><%= @country['capital'] %></dd>
+    11:       # <dt>Currency</dt>
+  
+app/views/travels/search.html.erb:8:in `_app_views_travels_search_html_erb__3698185548770572125_140736460888040'
+Started GET "/search?utf8=%E2%9C%93&city=New+York&button=" for 172.20.0.1 at 2023-02-06 06:35:25 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "city"=>"New York", "button"=>""}
+  Rendering travels/search.html.erb within layouts/application
+  Rendered travels/search.html.erb within layouts/application (9.1ms)
+Completed 500 Internal Server Error in 3605ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (no implicit conversion of String into Integer):
+     5:       <h4>City info</h4>
+     6:       <dl>
+     7:       <dt>City Name</dt>
+     8:       <dd><%= @city['term'] %></dd>
+     9:       # <dt>Capital</dt>
+    10:       # <dd><%= @country['capital'] %></dd>
+    11:       # <dt>Currency</dt>
+  
+app/views/travels/search.html.erb:8:in `[]'
+app/views/travels/search.html.erb:8:in `_app_views_travels_search_html_erb__3698185548770572125_140736530333140'
+Started GET "/search?utf8=%E2%9C%93&city=New+York&button=" for 172.20.0.1 at 2023-02-06 06:53:39 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "city"=>"New York", "button"=>""}
+  Rendering travels/search.html.erb within layouts/application
+  Rendered travels/search.html.erb within layouts/application (15.7ms)
+Completed 500 Internal Server Error in 2312ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (no implicit conversion of String into Integer):
+     5:       <h4>City info</h4>
+     6:       <dl>
+     7:       <dt>City Name</dt>
+     8:       <dd><%= @city['term'] %></dd>
+     9:       # <dt>Capital</dt>
+    10:       # <dd><%= @country['capital'] %></dd>
+    11:       # <dt>Currency</dt>
+  
+app/views/travels/search.html.erb:8:in `[]'
+app/views/travels/search.html.erb:8:in `_app_views_travels_search_html_erb__3698185548770572125_140736389336320'
+Started GET "/search?utf8=%E2%9C%93&city=New+York&button=" for 172.20.0.1 at 2023-02-06 06:53:56 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "city"=>"New York", "button"=>""}
+  Rendering travels/search.html.erb within layouts/application
+  Rendered travels/search.html.erb within layouts/application (11.2ms)
+Completed 500 Internal Server Error in 2493ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+     7:       <dt>City Name</dt>
+     8:       <dd><%= @city.first%></dd>
+     9:       # <dt>Capital</dt>
+    10:       # <dd><%= @country['capital'] %></dd>
+    11:       # <dt>Currency</dt>
+    12:       # <dd><%= @country['currencies'].join(', ') %></dd>
+    13:       # <dt>Timezone(s)</dt>
+  
+app/views/travels/search.html.erb:10:in `_app_views_travels_search_html_erb__3698185548770572125_140736450774280'
+Started GET "/search?utf8=%E2%9C%93&city=New+York&button=" for 172.20.0.1 at 2023-02-06 06:54:14 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "city"=>"New York", "button"=>""}
+  Rendering travels/search.html.erb within layouts/application
+  Rendered travels/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2181ms (Views: 93.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&city=New+York&button=" for 172.20.0.1 at 2023-02-06 06:55:20 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "city"=>"New York", "button"=>""}
+Completed 500 Internal Server Error in 2501ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `second' for #<Hash:0x0000ffff8054db90>
+Did you mean?  send):
+  
+app/controllers/travels_controller.rb:11:in `search'
+Started GET "/search?utf8=%E2%9C%93&city=New+York&button=" for 172.20.0.1 at 2023-02-06 06:55:52 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "city"=>"New York", "button"=>""}
+  Rendering travels/search.html.erb within layouts/application
+  Rendered travels/search.html.erb within layouts/application (11.5ms)
+Completed 500 Internal Server Error in 11715ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `second' for #<Hash:0x0000ffff84be0120>
+Did you mean?  send):
+     5:       <h4>City info</h4>
+     6:       <dl>
+     7:       <dt>City Name</dt>
+     8:       <dd><%= @city.second%></dd>
+     9:       
+    10:     </dl>
+    11:   
+  
+app/views/travels/search.html.erb:8:in `_app_views_travels_search_html_erb__3698185548770572125_140736454383460'
+Started GET "/search?utf8=%E2%9C%93&city=New+York&button=" for 172.20.0.1 at 2023-02-06 06:56:44 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "city"=>"New York", "button"=>""}
+  Rendering travels/search.html.erb within layouts/application
+  Rendered travels/search.html.erb within layouts/application (11.1ms)
+Completed 500 Internal Server Error in 2672ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `term' for #<Hash:0x0000ffff8d4e9ed0>):
+     5:       <h4>City info</h4>
+     6:       <dl>
+     7:       <dt>City Name</dt>
+     8:       <dd><%= @city.term%></dd>
+     9:       
+    10:     </dl>
+    11:   
+  
+app/views/travels/search.html.erb:8:in `_app_views_travels_search_html_erb__3698185548770572125_140736526149540'
+Started GET "/search?utf8=%E2%9C%93&city=New+York&button=" for 172.20.0.1 at 2023-02-06 06:57:17 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "city"=>"New York", "button"=>""}
+  Rendering travels/search.html.erb within layouts/application
+  Rendered travels/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2543ms (Views: 75.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&city=New+York&button=" for 172.20.0.1 at 2023-02-06 07:01:11 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "city"=>"New York", "button"=>""}
+  Rendering travels/search.html.erb within layouts/application
+  Rendered travels/search.html.erb within layouts/application (11.2ms)
+Completed 500 Internal Server Error in 2127ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+     7:       <dt>City Name</dt>
+     8:       <dd><%= @city['term']%></dd>
+     9:       <dt>City Name</dt>
+    10:       <dd><%= @city['suggestion']['entities'].join(',')%></dd>
+    11:     </dl>
+    12:   
+    13:   </div>
+  
+app/views/travels/search.html.erb:10:in `_app_views_travels_search_html_erb__3698185548770572125_140736463368500'
+Started GET "/search?utf8=%E2%9C%93&city=New+York&button=" for 172.20.0.1 at 2023-02-06 07:02:39 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "city"=>"New York", "button"=>""}
+  Rendering travels/search.html.erb within layouts/application
+  Rendered travels/search.html.erb within layouts/application (9.4ms)
+Completed 500 Internal Server Error in 3384ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (no implicit conversion of String into Integer):
+     7:       <dt>City Name</dt>
+     8:       <dd><%= @city['term']%></dd>
+     9:       <dt>City Name</dt>
+    10:       <dd><%= @city['suggestions']['entities'].join(',')%></dd>
+    11:     </dl>
+    12:   
+    13:   </div>
+  
+app/views/travels/search.html.erb:10:in `[]'
+app/views/travels/search.html.erb:10:in `_app_views_travels_search_html_erb__3698185548770572125_140736530218260'
+Started GET "/search?utf8=%E2%9C%93&city=New+York&button=" for 172.20.0.1 at 2023-02-06 07:04:03 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "city"=>"New York", "button"=>""}
+  Rendering travels/search.html.erb within layouts/application
+  Rendered travels/search.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 3320ms (Views: 117.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&city=New+York&button=" for 172.20.0.1 at 2023-02-06 07:04:28 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "city"=>"New York", "button"=>""}
+  Rendering travels/search.html.erb within layouts/application
+  Rendered travels/search.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 3123ms (Views: 75.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&city=New+York&button=" for 172.20.0.1 at 2023-02-06 07:05:25 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "city"=>"New York", "button"=>""}
+  Rendering travels/search.html.erb within layouts/application
+  Rendered travels/search.html.erb within layouts/application (10.2ms)
+Completed 500 Internal Server Error in 2148ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (no implicit conversion of String into Integer):
+     7:       <dt>City Name</dt>
+     8:       <dd><%= @city['term']%></dd>
+     9:       <dt>City Name</dt>
+    10:       <dd><%= @city['suggestions']['groups']%></dd>
+    11:     </dl>
+    12:   
+    13:   </div>
+  
+app/views/travels/search.html.erb:10:in `[]'
+app/views/travels/search.html.erb:10:in `_app_views_travels_search_html_erb__3698185548770572125_140736463472360'
+Started GET "/search?utf8=%E2%9C%93&city=New+York&button=" for 172.20.0.1 at 2023-02-06 07:21:52 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "city"=>"New York", "button"=>""}
+  Rendering travels/search.html.erb within layouts/application
+  Rendered travels/search.html.erb within layouts/application (15.0ms)
+Completed 500 Internal Server Error in 1923ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (no implicit conversion of String into Integer):
+     7:       <dt>City Name</dt>
+     8:       <dd><%= @city['term']%></dd>
+     9:       <dt>City Name</dt>
+    10:       <dd><%= @city['suggestions']['groups']%></dd>
+    11: 
+    12: 
+    13:       <% @city['suggestions'].each do |suggestion| %>
+  
+app/views/travels/search.html.erb:10:in `[]'
+app/views/travels/search.html.erb:10:in `_app_views_travels_search_html_erb__3698185548770572125_140736529165200'
+Started GET "/search?utf8=%E2%9C%93&city=delhi&button=" for 172.20.0.1 at 2023-02-06 07:31:05 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "city"=>"delhi", "button"=>""}
+  Rendering travels/search.html.erb within layouts/application
+  Rendered travels/search.html.erb within layouts/application (12.5ms)
+Completed 500 Internal Server Error in 11000ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (no implicit conversion of String into Integer):
+     7:       <dt>City Name</dt>
+     8:       <dd><%= @city['term']%></dd>
+     9:       <dt>City Name</dt>
+    10:       <dd><%= @city['suggestions']['groups']%></dd>
+    11: 
+    12: 
+    13:       <% @city['suggestions'].each do |suggestion| %>
+  
+app/views/travels/search.html.erb:10:in `[]'
+app/views/travels/search.html.erb:10:in `_app_views_travels_search_html_erb__3698185548770572125_140736387757700'
+Started GET "/search?utf8=%E2%9C%93&city=delhi&button=" for 172.20.0.1 at 2023-02-06 07:31:37 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "city"=>"delhi", "button"=>""}
+  Rendering travels/search.html.erb within layouts/application
+  Rendered travels/search.html.erb within layouts/application (198.8ms)
+Completed 500 Internal Server Error in 2193ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `suggestions' for #<#<Class:0x0000ffff84bda630>:0x0000ffff850994f0>
+Did you mean?  suggestion):
+    10:      
+    11: 
+    12:       <% @city['suggestions'].each do |suggestion| %>
+    13:         <dt><%= suggestions['group'] %></dt>
+    14:         
+    15: 
+    16:         
+  
+app/views/travels/search.html.erb:13:in `block in _app_views_travels_search_html_erb__3698185548770572125_140736456871760'
+app/views/travels/search.html.erb:12:in `each'
+app/views/travels/search.html.erb:12:in `_app_views_travels_search_html_erb__3698185548770572125_140736456871760'
+Started GET "/search?utf8=%E2%9C%93&city=delhi&button=" for 172.20.0.1 at 2023-02-06 07:32:29 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "city"=>"delhi", "button"=>""}
+  Rendering travels/search.html.erb within layouts/application
+  Rendered travels/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1911ms (Views: 87.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&city=delhi&button=" for 172.20.0.1 at 2023-02-06 07:33:36 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "city"=>"delhi", "button"=>""}
+  Rendering travels/search.html.erb within layouts/application
+  Rendered travels/search.html.erb within layouts/application (9.9ms)
+Completed 500 Internal Server Error in 18378ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    10:      
+    11: 
+    12:       <% @city['suggestions'].each do |suggestion| %>
+    13:         <dt><%= @city[suggestion]['group'] %></dt>
+    14:         
+    15: 
+    16:         
+  
+app/views/travels/search.html.erb:13:in `block in _app_views_travels_search_html_erb__3698185548770572125_140736524658260'
+app/views/travels/search.html.erb:12:in `each'
+app/views/travels/search.html.erb:12:in `_app_views_travels_search_html_erb__3698185548770572125_140736524658260'
+Started GET "/search?utf8=%E2%9C%93&city=delhi&button=" for 172.20.0.1 at 2023-02-06 07:42:01 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "city"=>"delhi", "button"=>""}
+  Rendering travels/search.html.erb within layouts/application
+  Rendered travels/search.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 2099ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/myapp/app/views/travels/search.html.erb:29: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+          ^~~~~~):
+  
+app/views/travels/search.html.erb:29: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/search?utf8=%E2%9C%93&city=delhi&button=" for 172.20.0.1 at 2023-02-06 08:14:25 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "city"=>"delhi", "button"=>""}
+  Rendering travels/search.html.erb within layouts/application
+  Rendered travels/search.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 2095ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/myapp/app/views/travels/search.html.erb:29: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+          ^~~~~~):
+  
+app/views/travels/search.html.erb:29: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/search?utf8=%E2%9C%93&city=new+York&button=" for 172.20.0.1 at 2023-02-06 08:18:04 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "city"=>"new York", "button"=>""}
+  Rendering travels/search.html.erb within layouts/application
+  Rendered travels/search.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 2950ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/myapp/app/views/travels/search.html.erb:29: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+          ^~~~~~):
+  
+app/views/travels/search.html.erb:29: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/" for 172.20.0.1 at 2023-02-06 09:41:22 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (2.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.8.1/lib/active_record/log_subscriber.rb:98
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 9ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 172.20.0.1 at 2023-02-06 09:41:22 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering /usr/local/bundle/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /usr/local/bundle/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (0.5ms)
+  Rendered /usr/local/bundle/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 304ms (Views: 294.3ms | ActiveRecord: 5.1ms)
+
+
+Started GET "/users/sign_in" for 172.20.0.1 at 2023-02-06 09:41:34 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering /usr/local/bundle/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /usr/local/bundle/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (0.5ms)
+  Rendered /usr/local/bundle/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 106ms (Views: 105.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.20.0.1 at 2023-02-06 09:41:35 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 172.20.0.1 at 2023-02-06 09:41:35 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering /usr/local/bundle/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /usr/local/bundle/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (0.7ms)
+  Rendered /usr/local/bundle/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 115ms (Views: 113.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/go" for 172.20.0.1 at 2023-02-06 09:41:35 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#index as HTML
+  Rendering travels/index.html.erb within layouts/application
+  Rendered travels/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 103ms (Views: 77.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&city=delhi&button=" for 172.20.0.1 at 2023-02-06 09:41:44 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "city"=>"delhi", "button"=>""}
+  Rendering travels/search.html.erb within layouts/application
+  Rendered travels/search.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 2098ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/myapp/app/views/travels/search.html.erb:29: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+          ^~~~~~):
+  
+app/views/travels/search.html.erb:29: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/search?utf8=%E2%9C%93&city=delhi&button=" for 172.20.0.1 at 2023-02-06 09:44:18 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "city"=>"delhi", "button"=>""}
+  Rendering travels/search.html.erb within layouts/application
+  Rendered travels/search.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 1630ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/myapp/app/views/travels/search.html.erb:31: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+          ^~~~~~):
+  
+app/views/travels/search.html.erb:31: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/search?utf8=%E2%9C%93&city=delhi&button=" for 172.20.0.1 at 2023-02-06 09:44:29 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "city"=>"delhi", "button"=>""}
+  Rendering travels/search.html.erb within layouts/application
+  Rendered travels/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2643ms (Views: 74.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&city=delhi&button=" for 172.20.0.1 at 2023-02-06 10:01:06 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "city"=>"delhi", "button"=>""}
+  Rendering travels/search.html.erb within layouts/application
+  Rendered travels/search.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 2149ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/myapp/app/views/travels/search.html.erb:14: syntax error, unexpected '<'
+...append=( suggestion['group'] ></dd>
+...                              ^
+/myapp/app/views/travels/search.html.erb:19: unknown regexp options - dl
+/myapp/app/views/travels/search.html.erb:19: unmatched close parenthesis: /dd>
+      <% end );@output_buffer.safe_append='
+    
+
+
+    </
+/myapp/app/views/travels/search.html.erb:21: syntax error, unexpected '<'
+  </div>
+  ^
+/myapp/app/views/travels/search.html.erb:22: unknown regexp options - dv
+/myapp/app/views/travels/search.html.erb:29: unterminated string meets end of file
+          end
+             ^
+/myapp/app/views/travels/search.html.erb:29: syntax error, unexpected end-of-input, expecting ')'
+          end
+             ^):
+  
+app/views/travels/search.html.erb:14: syntax error, unexpected '<'
+app/views/travels/search.html.erb:19: unknown regexp options - dl
+app/views/travels/search.html.erb:19: unmatched close parenthesis: /dd>
+app/views/travels/search.html.erb:21: syntax error, unexpected '<'
+app/views/travels/search.html.erb:22: unknown regexp options - dv
+app/views/travels/search.html.erb:29: unterminated string meets end of file
+app/views/travels/search.html.erb:29: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/search?utf8=%E2%9C%93&city=new+York&button=" for 172.20.0.1 at 2023-02-06 10:01:49 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "city"=>"new York", "button"=>""}
+  Rendering travels/search.html.erb within layouts/application
+  Rendered travels/search.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 2152ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/myapp/app/views/travels/search.html.erb:14: syntax error, unexpected '<'
+...append=( suggestion['group'] ></dd>
+...                              ^
+/myapp/app/views/travels/search.html.erb:19: unknown regexp options - dl
+/myapp/app/views/travels/search.html.erb:19: unmatched close parenthesis: /dd>
+      <% end );@output_buffer.safe_append='
+    
+
+
+    </
+/myapp/app/views/travels/search.html.erb:21: syntax error, unexpected '<'
+  </div>
+  ^
+/myapp/app/views/travels/search.html.erb:22: unknown regexp options - dv
+/myapp/app/views/travels/search.html.erb:29: unterminated string meets end of file
+          end
+             ^
+/myapp/app/views/travels/search.html.erb:29: syntax error, unexpected end-of-input, expecting ')'
+          end
+             ^):
+  
+app/views/travels/search.html.erb:14: syntax error, unexpected '<'
+app/views/travels/search.html.erb:19: unknown regexp options - dl
+app/views/travels/search.html.erb:19: unmatched close parenthesis: /dd>
+app/views/travels/search.html.erb:21: syntax error, unexpected '<'
+app/views/travels/search.html.erb:22: unknown regexp options - dv
+app/views/travels/search.html.erb:29: unterminated string meets end of file
+app/views/travels/search.html.erb:29: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/search?utf8=%E2%9C%93&city=new+York&button=" for 172.20.0.1 at 2023-02-06 10:02:43 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "city"=>"new York", "button"=>""}
+  Rendering travels/search.html.erb within layouts/application
+  Rendered travels/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2213ms (Views: 87.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&city=new+York&button=" for 172.20.0.1 at 2023-02-06 10:03:34 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "city"=>"new York", "button"=>""}
+  Rendering travels/search.html.erb within layouts/application
+  Rendered travels/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2227ms (Views: 77.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&city=new+York&button=" for 172.20.0.1 at 2023-02-06 10:08:09 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "city"=>"new York", "button"=>""}
+  Rendering travels/search.html.erb within layouts/application
+  Rendered travels/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3800ms (Views: 82.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&city=new+York&button=" for 172.20.0.1 at 2023-02-06 10:14:00 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "city"=>"new York", "button"=>""}
+  Rendering travels/search.html.erb within layouts/application
+  Rendered travels/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2192ms (Views: 68.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&city=new+York&button=" for 172.20.0.1 at 2023-02-06 10:15:30 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "city"=>"new York", "button"=>""}
+  Rendering travels/search.html.erb within layouts/application
+  Rendered travels/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1764ms (Views: 83.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&city=new+York&button=" for 172.20.0.1 at 2023-02-06 10:23:57 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "city"=>"new York", "button"=>""}
+  Rendering travels/search.html.erb within layouts/application
+  Rendered travels/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2060ms (Views: 85.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&city=new+York&button=" for 172.20.0.1 at 2023-02-06 10:31:21 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "city"=>"new York", "button"=>""}
+  Rendering travels/search.html.erb within layouts/application
+  Rendered travels/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2746ms (Views: 77.7ms | ActiveRecord: 0.0ms)
+
+
