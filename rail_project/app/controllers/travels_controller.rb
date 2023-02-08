@@ -8,7 +8,7 @@ class TravelsController < ApplicationController
       flash[:alert] = 'city not found'
       return render action: :index
     end
-    @city = cities.first
+    @city = cities
    
 
   end
