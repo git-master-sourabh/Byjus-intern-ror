@@ -7284,3 +7284,23 @@ FOREIGN KEY ("article_id")
   ↳ bin/rails:9
   [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
   ↳ bin/rails:9
+Started GET "/search?utf8=%E2%9C%93&city=new+York&button=" for 172.20.0.1 at 2023-02-08 07:38:47 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (3.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/bundle/gems/activerecord-5.2.8.1/lib/active_record/log_subscriber.rb:98
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "city"=>"new York", "button"=>""}
+  Rendering travels/search.html.erb within layouts/application
+  Rendered travels/search.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 4510ms (Views: 382.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&city=new+York&button=" for 172.20.0.1 at 2023-02-08 07:39:15 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TravelsController#search as HTML
+  Parameters: {"utf8"=>"✓", "city"=>"new York", "button"=>""}
+  Rendering travels/search.html.erb within layouts/application
+  Rendered travels/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2344ms (Views: 79.8ms | ActiveRecord: 0.0ms)
+
+

@@ -6,33 +6,29 @@
       <dl>
       <dt>City Name</dt>
       <dd><%= @city['term']%></dd>
-      <dt>City Name</dt>
-     
-
-     
-      <% @city['suggestions'].each do |suggestion| %>
-        <h3><%= suggestion['group'] %></h3>
-       <table border=2>
-       <% suggestion['entities'].each_with_index do |entity,index| %>
-          <% if index==0 %>
+      <dt>City Details</dt>
+      <% @city['suggestions'].each do |suggestion|%>
+        <h3> <%= suggestion['group']%> </h3>
+        <% entities = suggestion['entities']%>
+        <%if entities.count %>
+          <% all_keys = entities.first.keys - ['caption','redirectPage', 'searchDetail'] %>
+          <table>
             <tr>
-              <% entity.keys do |k|%>
-              <th><%=k%></th>
+              <%all_keys.each do |key|%>
+                <th> <%=key%> </th>
               <%end%>
-            </tr>
-          <%end%>
-       <%end%>
-       
-       </table>
-      
-       
-      <% end %>
-    
+            <tr>
 
-
+            <%entities.each do |entity| %>
+              <tr>
+                <%all_keys.each do |key|%>
+                  <td> <%=entity[key]%> </td>
+                <%end%>
+              </tr>
+            <%end%>
+          </table>
+        <%end%>
+      <%end%>
     </dl>
-  
   </div>
 </div>
-
-
